@@ -8,17 +8,18 @@
     --letter-colordos: #00291C;
     --letter-colortres: #958F95;
     --extra-color: #FF5BB3;
-    --heading-font: "IM Fell French Canon SC";
+    --heading-font: "IM Fell French Canon SC", "Rode Rage";
     --paragraph-font: "Lato", "Helvetica", "sans-serif";
     --paragraph-font-two: "Bahnschrift SemiBold";
+    --nav-text-premiere: "Techno Hideo";
     --headline-color-on-white: #396E94;
     --headline-color-on-color: white;
     --paragraph-color-on-color: white;
-    --paragraph-background-color: #396E94  ;
-    --nav-link-color: #396E94;
+    --paragraph-background-color: #B3126A;
+    --text-photoedit: #19E9FF;
     --nav-background-color: #D4AC0D;
     --nav-hover-link-color: white;
-    --nav-hover-background-color: #396E94;
+    --background-color-premiere: #00946C;
   }
   
   body {
@@ -120,7 +121,7 @@
   }
   nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    background-color: var(--background-color-premiere);
   }
   
   .sitemap {
