@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #000C7D   ;
+    --secondary-color: #1B5996 ;
+    --accent1-color: #871B96;
+    --accent2-color: white;
+    --title-color: #04438F;
+    --letter-coloruno: #a30000a8;
+    --letter-colordos: #00291C;
+    --letter-colortres: #958F95;
+    --extra-color: #FF5BB3;
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: "Lato", "Helvetica", "sans-serif";
+    --paragraph-font-two: "Bahnschrift SemiBold";
+    --headline-color-on-white: #396E94;
+    --headline-color-on-color: white;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #396E94  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
+
+body {
+    color: var(--primary-color);
+}

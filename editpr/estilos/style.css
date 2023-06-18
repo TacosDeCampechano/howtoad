@@ -1,33 +1,25 @@
 :root {
-    /* change the values below to your colors from your palette */
     --primary-color: #000C7D   ;
     --secondary-color: #1B5996 ;
     --accent1-color: #871B96;
     --accent2-color: white;
-    --title-color: ;
+    --title-color: #04438F;
     --letter-coloruno: #a30000a8;
-    --letter-colordos: ;
-    --letter-colortres: ;
-    --extra-color: ;
-  
-    /* change the values below to your chosen font(s) */
+    --letter-colordos: #00291C;
+    --letter-colortres: #958F95;
+    --extra-color: #FF5BB3;
     --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif;
+    --paragraph-font: "Lato", "Helvetica", "sans-serif";
     --paragraph-font-two: "Bahnschrift SemiBold";
-  
-    /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-    --headline-color-on-color: white; /* headlines on a colored background */  
-    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --headline-color-on-white: #396E94;
+    --headline-color-on-color: white;
+    --paragraph-color-on-color: white;
     --paragraph-background-color: #396E94  ;
     --nav-link-color: #396E94;
     --nav-background-color: #D4AC0D;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #396E94;
   }
-  
-  
-  /*  Look around below...but DON'T CHANGE ANYTHING! */
   
   body {
     max-width: 1200px;
