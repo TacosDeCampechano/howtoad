@@ -1,0 +1,11 @@
+grid-column-start para poner una seccion en cierta posicion, por ejemplo en una cuadricula de 5x5, poner grid-column start 5 lo llevara de izquierda a la derecha
+grid-column-end es para abarcar cierto espacio
+codigo es: 
+grid-template-columns: 20% 20% 20% 20% 20% (esto para dividirlo entre 5 bloques en :horizontal)
+grid-template-rows: 20% 20% 20% 20% 20% (para dividir en 5 en :vertical)
+grid-row-start: sirve para usar cierta linea horizontal en el cuadriculo
+grid-area: este es un dolor de webos, 1(posicion inicial en horizontal)/2(posicion inicial en vertical)/4(posicion final en :horizontal)/6(posicion final en :vertical) 1/2/4/6
+span es un metodo usado para alargar los cuadros usados, se usan numeros positivos para esto
+order: se usa para iniciar una posicion
+
+pro tips bitch: en vez de usar grid-template-columns: 20% 20% 20% 20% 20%; puedes usar grid-template-columns: repeat (5, 20%);
