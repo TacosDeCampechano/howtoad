@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #000C7D   ;
+    --secondary-color: #1B5996 ;
+    --accent1-color: #871B96;
+    --accent2-color: white;
+    --title-color: #04438F;
+    --letter-coloruno: #a30000;
+    --letter-colordos: #00291C;
+    --letter-colortres: #958F95;
+    --extra-color: #FF5BB3;
+    --heading-font: "among_us";
+    --paragraph-font: "Lato", "Helvetica", "sans-serif";
+    --paragraph-font-two: "Bahnschrift SemiBold";
+    --nav-text-premiere: "Techno Hideo";
+    --headline-color-on-orange: #553203;
+    --headline-color-on-color: white;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #B3126A;
+    --text-photoedit: #19E9FF;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --background-color-premiere: #00946C;
+  }
+
+@font-face {
+  font-family: Tok;
+  src: url(fonts/TokyoMidnight.ttf);
+}
+
+header {
+  background-color: var(--accent1-color);
+  font-family: var(--nav-text-premiere);
+  font-size: 3em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+nav {
+  padding: 35px;
+}
+
+nav a {
+  color: var(--nav-background-color);
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: var(--headline-color-on-color);
+  background-color: var(--letter-coloruno);
+}
+
+body {
+  background-color: var(--background-color-premiere);
+}
+
+p {
+  font-family: var(--paragraph-font-two);
+  color: var(--text-photoedit);
+  font-weight: bold;
+  text-align: justify;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-family: var(--heading-font);
+}
+
+h2 {
+  color: var(--letter-coloruno);
+  text-align: center;
+}
+
+h4 {
+  color: var(--headline-color-on-orange);
+}
+
+img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0));
+}
+
+
+.text {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Tok;
+}
+
+.cd {
+  text-align: center;
+  color: var(--accent1-color);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+  display: flex;
+}
+
+footer {
+  background-color: var(--secondary-color);
+}
