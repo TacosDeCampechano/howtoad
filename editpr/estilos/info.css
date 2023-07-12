@@ -4,7 +4,7 @@
   --accent1-color: #871B96;
   --accent2-color: white;
   --title-color: #04438F;
-  --letter-coloruno: #a30000a8;
+  --letter-coloruno: #5c0000;
   --letter-colordos: #00291C;
   --letter-colortres: #958F95;
   --extra-color: #FF5BB3;
@@ -27,10 +27,29 @@
     background-color: var(--accent1-color);
   }
 
+  img {
+    width: 20%;
+    height: auto;
+  }
+
+  p {
+    font-family: var(--paragraph-font-two);
+  }
+
   header {
     background-color: var(--nav-background-color);
+    text-align: center;
+    font-size: 50px
   }
 
   h1 {
     font-family: var(--heading-font);
+  }
+
+  footer {
+    background-color: var(--letter-coloruno);
+  }
+
+  p .cd {
+    font-style: var(--nav-text-premiere);
   }
