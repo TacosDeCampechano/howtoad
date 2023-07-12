@@ -1,9 +1,20 @@
+@font-face {
+  font-family: Yes;
+  src: url(../fonts/TT\ Octosquares\ Trial\ Expanded\ Black\ Italic.ttf);
+}
+
+@font-face {
+  font-family: Octo;
+  src: url();
+}
+
 :root {
   --primary-color: #000C7D   ;
   --secondary-color: #1B5996 ;
   --accent1-color: #871B96;
   --accent2-color: white;
   --title-color: #04438F;
+  --letter-color: #C7014A;
   --letter-coloruno: #5c0000;
   --letter-colordos: #00291C;
   --letter-colortres: #958F95;
@@ -12,6 +23,7 @@
   --paragraph-font: "Lato", "Helvetica", "sans-serif";
   --paragraph-font-two: "Bahnschrift SemiBold";
   --nav-text-premiere: "Techno Hideo";
+  --text-paragraph: "Times New Roman";
   --headline-color-on-white: #396E94;
   --headline-color-on-color: white;
   --paragraph-color-on-color: white;
@@ -19,37 +31,80 @@
   --text-photoedit: #19E9FF;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --background-color-premiere: #00946C;
+  --background-color-premiere: #6EB02C;
 }
 
   body {
     max-width: 1920px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
   }
 
   img {
     width: 20%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
-    font-family: var(--paragraph-font-two);
+    font-family: var(--text-paragraph);
+    color: var(--letter-color);
+    text-align: center;
   }
 
   header {
-    background-color: var(--nav-background-color);
+    background-color: var(--accent1-color);
+    font-family: Yes;
     text-align: center;
-    font-size: 50px
+    font-size: 2em;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+  }
+
+  nav {
+    padding: 35px;
+  }
+
+  nav a {
+    color: var(--background-color-premiere);
+    padding-right: 10px;
+  }
+
+  nav a:hover {
+    color: var(--headline-color-on-color);
+    background-color: var(--letter-coloruno);
   }
 
   h1 {
     font-family: var(--heading-font);
+    color: var(--background-color-premiere);
+    text-align: center;
   }
 
   footer {
     background-color: var(--letter-coloruno);
   }
 
-  p .cd {
+  p.xd {
+    text-align: left;
+  }
+  .cd {
     font-style: var(--nav-text-premiere);
+    text-align: left;
+  }
+
+  .logo {
+    width: 30px;
+    height: auto;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0));
   }

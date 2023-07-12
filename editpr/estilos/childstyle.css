@@ -35,7 +35,6 @@ header {
   display: flex;
   justify-content: center;
   padding: 10px;
-
 }
 
 nav {
@@ -102,7 +101,6 @@ img {
 .logo {
   width: 30px;
   height: auto;
-  display: flex;
 }
 
 footer {
